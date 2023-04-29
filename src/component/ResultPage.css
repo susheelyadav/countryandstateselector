@@ -1,0 +1,27 @@
+.displayresult{
+    width:25%;
+    margin:100px auto;
+    padding:30px;
+    text-align: center;
+    border-radius: 10px;
+   border:1px solid whitesmoke;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+
+
+.rebtn{
+    margin-top:10px;
+    background-color: #2976cd;
+    color:white;
+    border: 1px solid #2976cd;
+    padding:4px 10px;
+    border-radius: 10px;
+}
+
+
+@media(max-width: 768px){
+    .displayresult{
+        width:50%;
+    }
+  }
